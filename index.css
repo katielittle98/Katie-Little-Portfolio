@@ -98,6 +98,7 @@ body {
 
 .about-bio > p {
     text-align: justify;
+
 }
 
 .myphoto {
@@ -162,7 +163,7 @@ form {
 }
 
 .p-info {
-    width: 100%;
+    max-width: 600px;
     text-align: justify;
     display: block;
     margin-top: 10px auto;
@@ -179,7 +180,7 @@ form {
 }
 
  .p-img {
-    max-width: 25rem;
+    max-width: 600px;
     display: block;
     margin: 0 auto;
     object-fit: cover;
