@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Watchlist</title>
+        <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!--Google Font CDN-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ml-auto ui fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html#home">Katie Little</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html#about">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+<!--Project Info-->
+  <div class="project-html">
+      <div>
+        <h1 class="p-title">My Movie Browser</h1>
+        <p>This page contains the case study for my movie browser website, which includes a project overview, video demonstration, tools used, and links to the project.</p>
+        <div class="p-btns">
+          <a href="https://github.com/katielittle98/movie-watchlist" target="_blank"><button class="btn">GitHub Link</button></a>
+          <a href="https://katies-movie-watchlist.netlify.app/" target="_blank"><button class="btn">Netlify Link</button></a>
+        </div>
+        <img src="images/project1pic.png" class="ph-img">
+      </div>
+
+    <div>
+      <h2 class="p-title">Video Demonstration</h2>
+      <video controls="controls" name="Video Name">
+        <source src="videos/project1.mov">
+      </video>
+    </div>
+
+    <div>
+      <h2 class="p-title">Project Overview</h2>
+      <p>For this project, I created a movie browser website that leverages the power of a search engine integrated with the OMDB (Open Movie Database) API, a RESTful web service, which extracts movie information such as movie titles, release dates, plot summaries, ratings, and more. This website allows users to explore a vast collection of movies and easily find information about their favorite films. Additionally, users have the option to create a personal watchlist, where they can add movies of interest and save them to watch later.</p>
+    </div>
+
+    <div>
+      <h2 class="p-title">Tools Used</h2>
+      <div class="skills p-skill">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JS E6</span>
+        <span class="skill">RESTful API's</span>
+        <span class="skill">Responsive Web Design</span>
+        <span class="skill">Github</span>
+      </div>
+    </div>
+  <div>
+    <script src="index.js"></script>
+</body>
+
+</html>

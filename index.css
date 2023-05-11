@@ -1,0 +1,252 @@
+
+* {
+    box-sizing: border-box;
+    body: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(238, 238, 239);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+
+.ui {
+    background: #67B26F; 
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F); 
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    padding: 10px;
+    height: 4rem;
+    width: 100%;    
+}
+
+.nav-link, .navbar-brand {
+    color: white !important;
+}
+
+.title {
+    font-size: 3.5rem;
+    overflow: hidden; 
+    border-right: .15em solid transparent; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: 
+      title-text 3.5s steps(40, end),
+      typing .75s step-end 2;
+}
+
+.bio {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@keyframes title-text { 
+    from { max-width: 0 }
+    to { max-width: 80% }
+    }
+    
+    @keyframes typing {
+        from, to { border-color: transparent }
+        50% { border-color: #67B26F; }
+      }
+
+      @media (max-width: 640px) {
+        .title {
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+        .bio {
+            font-size: 1rem;
+        }
+      }
+
+.home {
+    text-align: center;
+    margin: 120px 20px;
+    padding: 120px 40px;
+}
+
+ .about, .contact, .projects {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.about > h1 {
+    padding-bottom: 40px;
+}
+
+.f300 {
+    font-weight: 300;
+}
+
+.about > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-bio {
+    text-align: center;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.about-bio > p {
+    text-align: justify;
+}
+
+.myphoto {
+    width: 150px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+form {
+    display: grid;
+    max-width: 30rem;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.btn, .submit-btn {
+    background-color: #67B26F;
+    color: white;
+    border: none;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+
+}
+
+.skill {
+    background-color: #67B26F;
+    color: white;
+    padding: .1rem;
+    margin-bottom: 1rem;
+    margin-right: 1.2rem;
+    border-radius: 5px;
+}
+
+.icons, a {
+    color: #67B26F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.proj-title {
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.p-info {
+    width: 100%;
+    text-align: justify;
+    display: block;
+    margin-top: 10px auto;
+
+}
+
+@media (min-width: 768px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .p-info {
+        max-width: 70%;
+    }
+}
+
+ .p-img {
+    max-width: 25rem;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+.nav-link {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+ 
+.collapse {
+    background: #67B26F; 
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F); 
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+}
+
+.navbar-toggler {
+    height: 30px;
+    padding-top: 0;
+} 
+
+.navbar-nav {
+    left: 0;
+
+}
+
+.collapse{
+    background: #67B26F; 
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F); 
+    background: linear-gradient(to right, #4ca2cd, #67B26F); 
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.ph-img {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+}
+
+.project-html {
+    padding: 100px;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+}
+
+.p-title {
+    text-align:  center;
+}
+
+.p-btns {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.p-skill {
+    margin: 0 auto;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 0%;
+}
