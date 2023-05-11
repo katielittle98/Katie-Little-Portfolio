@@ -161,7 +161,8 @@ form {
 .p-info {
     text-align: center;
     max-width: 600px;
-    margin: 10px auto;
+    margin: 20px;
+    padding: 20px;
 
 }
 
@@ -170,9 +171,7 @@ form {
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
-    .p-info {
-        max-width: 70%;
-    }
+
 }
 
  .p-img {
