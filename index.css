@@ -171,11 +171,14 @@ form {
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
+    .p-img {
+        width: 500px;
+    }
 
 }
 
  .p-img {
-    max-width: 400px;
+    max-width: 300px;
     display: block;
     margin: 0 auto;
     object-fit: cover;
