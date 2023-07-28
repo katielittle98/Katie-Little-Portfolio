@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet">
     <!--Boxicons CDN-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--CSS-->
@@ -49,73 +53,85 @@
       <div class="home-hero">
         <h1 class="title">Hi, I'm Katie.</h1>
         <p class="bio">A Front-end Web Developer based in San Diego, CA.</p>
+        <img src="images/home-img.png" class="home-img">
         <a href="#projects"><button class="btn" id="project-btn" >Projects</button></a>
-        <div class="icons">
-          <a href="https://app.netlify.com/teams/katielittle98/sites" target="_blank"><i class='bx bxl-netlify'></i></a>
-          <a href="https://www.linkedin.com/in/katie-little-b282a7180/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
-          <a href="https://github.com/katielittle98" target="_blank"><i class='bx bxl-github' ></i></a>
-        </div>
       </div>
     </div>
 
     <!--About Me-->
     <div class="about" id="about">
-        <h1 >About Me</h1>
-        <div>
-            <div class="about-bio">
-                <h2 class="f300">Get to know me!</h2>
-                <p>My name is Katie Little and I live in San Diego, CA. I'm a University of Oregon Alumnus (Go Ducks!). I've been learning how to code and build web applications since 2020. My interest in coding first began in 2013 when I was an active Tumblr user. I thoroughly enjoyed editing the HTML associated with my profile to make my page appear both interactive and exciting. Since then, I have advanced my knowledge in HTML, CSS and Javascript in order to build responsive web designs.</p>
-                <p>I find joy in the process of problem-solving and seeing my code come to life. My commitment to continuous learning and dedication to mastering coding skills have led me down a rewarding path towards a career in the technology industry.</p>
-            </div>
-            <div>
-                <h2 class="f300">My Skills</h2>
-                <div class="skills">
-                    <div class="skill">HTML5</div>
-                    <div class="skill">CSS3</div>
-                    <div class="skill">Javascript ES6</div>
-                    <div class="skill">React</div>
-                    <div class="skill">Responsive Web Design</div>
-                    <div class="skill">Bootstrap 5</div>
-                    <div class="skill">Command Line</div>
-                    <div class="skill">jQuery</div>
-                    <div class="skill">RESTful APIs</div>
-                    <div class="skill">Git</div>
-                    <div class="skill">GitHub</div>
-                    <div class="skill">SQL</div>
+        <h1>ABOUT ME</h1>
+        <hr>
+        <div class="about-skill-cont">
+          <div class="about-container">
+            <img src="images/me.jpg" class="me-img">
+              <div class="about-bio">
+                  <div class="about-info">
+                    <h1 class="f300">Get to know me!</h1>
+                    <p>My name is Katie Little and I live in San Diego, CA. I'm a University of Oregon Alumnus (Go Ducks!). I've been learning how to code and build web applications since 2020. My interest in coding first began in 2013 when I was an active Tumblr user. I thoroughly enjoyed editing the HTML associated with my profile to make my page appear both interactive and exciting. Since then, I have advanced my knowledge in HTML, CSS and Javascript in order to build responsive web designs.</p>
+                    <p>I find joy in the process of problem-solving and seeing my code come to life. My commitment to continuous learning and dedication to mastering coding skills have led me down a rewarding path towards a career in the technology industry.</p>
+                  </div>
+              </div>
+          </div>
 
-                </div>
-            </div>
+          <div class="skill-cont">
+            <h1>MY SKILLS</h1>
+              <div class="skills">
+                  <div class="skill">HTML5</div>
+                  <div class="skill">CSS3</div>
+                  <div class="skill">Javascript ES6</div>
+                  <div class="skill">React</div>
+                  <div class="skill">Responsive Web Design</div>
+                  <div class="skill">Bootstrap 5</div>
+                  <div class="skill">Command Line</div>
+                  <div class="skill">jQuery</div>
+                  <div class="skill">RESTful APIs</div>
+                  <div class="skill">Git</div>
+                  <div class="skill">GitHub</div>
+                  <div class="skill">SQL</div>
+              </div>
+          </div>
         </div>
     </div>
 
+
     <!--Projects-->
-    <h1 class="proj-title">My Projects</h1>
-    <div class="projects" id="projects">
+      <div class="project-cont">
+        <h1 >MY PROJECTS</h1>
+        <div class="projects" id="projects">
+          <div>
             <img src="images/project1pic.png" class="p-img">
             <div class="p-info">
                 <h1 class="f300">My Movie Browser</h1>
                 <p>This website enables users to effortlessly search for movies and conveniently save them to a personal watchlist for future reference. </p>
                 <button class="btn" type="button" id="p1btn">View Project</button>
             </div>
+          </div>
 
+          <div>
             <img src="images/project2pic.png" class="p-img">
             <div class="p-info">
               <h1 class="f300">Katie's Cafe</h1>
               <p>The website offers an easy-to-use interface for browsing the menu and customizing orders according to personal preferences.</p>
               <button class="btn" type="button" id="p2btn">View Project</button>
             </div>
+          </div>
 
+          <div>
             <img src="images/project3pic.png" class="p-img">
             <div class="p-info">
               <h1 class="f300">TinDog</h1>
               <p>This innovative platform connects dogs and their owners, allowing them to create profiles and search for compatible matches based on breed, size, personality, and more.</p>
               <button class="btn" type="button" id="p3btn">View Project</button>
             </div>
+          </div>
+      </div>
     </div>
 
+
     <!--Contact-->
-    <div class="contact" id="contact">
-      <h1>Contact Me</h1>
+  <div class="contact">
+      <h1>CONTACT ME</h1>
       <p>Feel free to contact me by submitting the form below, and I will get back to you as soon as possible.</p>
       <form action="mailto:katieanne.460@gmail.com" method="POST" enctype="text/plain">
           <label for="name">Name</label>
@@ -140,3 +156,16 @@
     <script src="index.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- <div class="icons">
+  <a href="https://app.netlify.com/teams/katielittle98/sites" target="_blank"><i class='bx bxl-netlify'></i></a>
+  <a href="https://www.linkedin.com/in/katie-little-b282a7180/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+  <a href="https://github.com/katielittle98" target="_blank"><i class='bx bxl-github' ></i></a>
+</div> -->
