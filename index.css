@@ -114,7 +114,8 @@ body {
 
 .home-img {
     width: 36rem;
-    margin-bottom: 1rem;
+    margin: 0 auto;
+    padding-bottom: 1.2rem;
 }
 
 .btn {
@@ -137,6 +138,17 @@ body {
     font-size: 50px;
     padding-top: 10px;
     text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+    .home {
+        padding: 4rem .5rem;
+        margin: 5rem 0;
+        height: 90vh;
+    }
+    .home-img {
+        width: 18rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -163,6 +175,7 @@ body {
     width: 100%;
     margin: 0 auto;
     color: white;
+    width: 100%;
 }
 
 
@@ -190,12 +203,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin: 0 auto;
 }
 
 .about-info {
     padding: 0 2rem;
-
+    margin: 0 auto;
 }
 
 .about-skill-cont {
@@ -219,14 +232,41 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
 
 }
 
-@media (min-width: 1290px) {
+@media (min-width: 320px) and (max-width: 540px) {
+    .about {
+        padding: 1rem;
+    }
     .about-skill-cont {
-        flex-direction: row;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .about-info, .about-container {
+        padding: .25rem;
+    }
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media(min-width: 992px) {
+    .about-container{
+        flex-direction: row;
+    }
+    .about-bio {
+        margin: 0 auto;
+    }
+    .about-info {
+        text-align: justify;
+        width: 90%;
+    }
+}
+
 
 .skill {
     background-color: #67B26F;
@@ -236,20 +276,21 @@ body {
     width: 14rem;
 }
 
-@media(min-width: 992px) {
-    .about-container{
+@media (min-width: 1290px) {
+    .about-skill-cont {
         flex-direction: row;
     }
-    .about-info {
-        text-align: justify;
-        width: 90%;
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
+
+
 
 <!--Contact-->
 
 .contact {
-    background-color: #67B26F;
+    background-color: #67B26F!important;
 }
 
 form {
@@ -321,21 +362,28 @@ form {
 
 .ph-img {
     display: block;
-    margin: 50px auto;
+    margin: 1rem auto;
     max-width: 100%;
 }
 
 .project-html {
-    padding: 100px;
     text-align: center;
     display: block;
-    margin: 0 auto;
-    max-width: 800px;
+    margin: 3rem auto;
+    padding: 5rem;
+    max-width: 90%;
 }
 
 .p-title {
     text-align:  center;
-    font-weight: 3;
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.p-title2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
 }
 
 .p-btns {
@@ -346,6 +394,7 @@ form {
 
 .p-skill {
     margin: 0 auto;
+  
 }
 
 video {
