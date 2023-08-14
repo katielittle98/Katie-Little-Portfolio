@@ -52,7 +52,7 @@
     <div class="home" id="home">
       <div class="home-hero">
         <h1 class="title">Hi, I'm Katie.</h1>
-        <p class="bio">A Front-end Web Developer based in San Diego, CA.</p>
+        <p class="bio">A Front-End Web Developer based in San Diego, CA.</p>
         <img src="images/home-img.png" class="home-img">
         <a href="#projects"><button class="btn" id="project-btn" >Projects</button></a>
       </div>
@@ -100,30 +100,29 @@
         <h1 >MY PROJECTS</h1>
         <hr>
         <div class="projects" id="projects">
-
-          <div>
+          <div class="project">
             <img src="images/project3pic.png" class="p-img">
             <div class="p-info">
               <h1 class="f300">SOAP MAT</h1>
-              <p>This website was created for an addiction treatment facility based in San Diego, CA.</p>
+              <p class="p-desc">This website was created for a substance misuse treatment facility, SOAP MAT, LLC., based in San Diego, CA</p>
               <button class="btn" type="button" id="p3btn">View Project</button>
             </div>
           </div>
 
-          <div>
+          <div class="project">
             <img src="images/project1pic.png" class="p-img">
             <div class="p-info">
-                <h1 class="f300">My Movie Browser</h1>
-                <p>This website enables users to effortlessly search for movies and conveniently save them to a personal watchlist for future reference. </p>
+                <h1 class="f300">Movie Browser</h1>
+                <p class="p-desc">This website enables users to effortlessly search for movies and conveniently save them to a personal watch list for future reference. </p>
                 <button class="btn" type="button" id="p1btn">View Project</button>
             </div>
           </div>
 
-          <div>
+          <div class="project">
             <img src="images/project2pic.png" class="p-img">
             <div class="p-info">
               <h1 class="f300">Katie's Cafe</h1>
-              <p>The website offers an easy-to-use interface for browsing the menu and customizing orders according to personal preferences.</p>
+              <p class="p-desc">The website offers an easy-to-use interface for browsing the menu and customizing orders according to personal preferences.</p>
               <button class="btn" type="button" id="p2btn">View Project</button>
             </div>
           </div>
@@ -132,20 +131,19 @@
 
 
     <!--Contact-->
-  <div class="contact">
-      <h1>CONTACT ME</h1>
-      <p>Feel free to contact me by submitting the form below, and I will get back to you as soon as possible.</p>
-      <form action="mailto:katieanne.460@gmail.com" method="POST" enctype="text/plain">
-          <label for="name">Name</label>
-          <input type="text" name="name" id="name">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
-          <br>
-          <button class="submit-btn">Submit</button>
-      </form>
+
+  <div class="contact" id="contact">
+    <h1>CONTACT ME</h1>
+    <hr>
+    <p>Feel free to contact me by submitting the form below, and I will get back to you as soon as possible.</p>
+    <form action="mailto:katieanne.460@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" id="name" placeholder="Enter your full name:">
+        <input type="email" name="email" id="email" placeholder="Enter your email:">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message:"></textarea>
+        <button class="submit-btn">Submit</button>
+    </form>
   </div>
+
   
     <!--Bootstrap CDN JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -153,7 +151,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
-
     <!--JS-->
     <script src="index.js"></script>
 </body>
