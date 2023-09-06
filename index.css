@@ -174,8 +174,7 @@ body {
 }
 
 .contact {
-    background-color: #67B26F;
-    color: white;
+    color: rgb(53, 53, 53);
 }
 
 .contact > p {
@@ -183,10 +182,9 @@ body {
 }
 
 .about {
-    background-color: #4ca2cd;
     width: 100%;
     margin: 0 auto;
-    color: white;
+    color: rgb(53, 53, 53);
     width: 100%;
 }
 
@@ -306,7 +304,7 @@ body {
 .contact {
     width: 100%;
     margin: 0 auto;
-    color: white;
+    color: rgb(53, 53, 53);
     width: 100%;
 }
 
@@ -317,20 +315,21 @@ form {
     margin: 0 auto;
     gap: 10px;
     margin: .75rem auto;
-    padding: 1rem;
+    padding: 1.2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input, textarea {
-    border: none;
+    border: 1px solid rgb(195, 195, 195);
     border-radius: 5px;
     padding: .35rem;
+
 }
 
 .submit-btn {
-    background-color: white;
-    color: #67B26F;
+    background-color: #67B26F;
+    color: white;
     border: none;
     margin: 0 auto;
     border-radius: 5px;
@@ -355,7 +354,7 @@ input, textarea {
 .projects {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
+    gap: 1.4rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -363,6 +362,7 @@ input, textarea {
 
 .project {
     height: 38rem;
+    padding: 1rem;
 }
 
 .p-desc {
@@ -391,7 +391,7 @@ input, textarea {
 
 @media (min-width: 950px) {
     .projects {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .p-img {
         width: 30rem;
